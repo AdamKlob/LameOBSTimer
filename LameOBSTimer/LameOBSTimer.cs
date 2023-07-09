@@ -1,4 +1,3 @@
-using FFMediaToolkit.Encoding;
 using System.Numerics;
 using System.Runtime.CompilerServices;
 
