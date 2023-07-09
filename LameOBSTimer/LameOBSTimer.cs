@@ -135,7 +135,7 @@ namespace LameOBSTimer
             this.bStart.Enabled = false;
             this.bPause.Enabled = true;
             this.bStop.Enabled = true;
-            this.bEndAt.Enabled = true;
+            this.bEndAt.Enabled = false;
             timerWorker.RunWorkerAsync();
         }
 
