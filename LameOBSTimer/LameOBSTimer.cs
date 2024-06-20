@@ -1,5 +1,8 @@
+using System.Drawing.Imaging;
+using System.Net.Sockets;
 using System.Numerics;
 using System.Runtime.CompilerServices;
+using System.Windows.Forms;
 
 namespace LameOBSTimer
 {
@@ -235,7 +238,7 @@ namespace LameOBSTimer
                     }
                 }
             }
-            catch ( Exception e)
+            catch (Exception e)
             {
                 MessageBox.Show(e.ToString(), "Configuration file loading error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }

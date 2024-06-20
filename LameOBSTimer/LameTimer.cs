@@ -11,6 +11,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Security.Policy;
 using System.Drawing.Design;
+using System.Drawing.Imaging;
+using System.Net.Sockets;
+using System.Windows.Forms;
 
 namespace LameOBSTimer
 {
@@ -171,6 +174,13 @@ namespace LameOBSTimer
             var stream = new System.IO.MemoryStream();
             sImage.SaveAsBmp(stream);
             return System.Drawing.Image.FromStream(stream);
+        }
+
+        TcpListener server = new TcpListener(5000);
+        Socket mysocket;
+        public LameTimer()
+        {
+            server.Start();
         }
     }
 }

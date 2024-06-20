@@ -251,7 +251,7 @@
             dtpEndAt.Size = new System.Drawing.Size(62, 23);
             dtpEndAt.TabIndex = 20;
             // 
-            // Form1
+            // LameOBSTimer
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -275,7 +275,7 @@
             Controls.Add(bFontColor);
             Controls.Add(nudSeconds);
             Controls.Add(nudMinutes);
-            Name = "Form1";
+            Name = "LameOBSTimer";
             Text = "LameObsTimer";
             Load += LameOBSTimer_Load;
             ((System.ComponentModel.ISupportInitialize)nudMinutes).EndInit();
